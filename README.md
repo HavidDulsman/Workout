@@ -7,4 +7,18 @@ This project was created in reference to the QA Learning Academy Training Based 
 
 This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intake.
 
-# Twice!
+# Table of Contents
+
+# Brief
+
+# Project Plan
+## Trello Board
+
+# Architecture
+## Entity Relationship Diagram
+## Use Case Diagram
+## Multi Tier Architecture Diagram
+
+# Risk Assessment
+
+
