@@ -18,16 +18,16 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
     + Multi Tier Architecture Diagram
 4. Risk Assessment
 
-# Brief
+## Brief
 
-# Project Plan
-## Trello Board
+## Project Plan
+### Trello Board
 
-# Architecture
-## Entity Relationship Diagram
-## Use Case Diagram
-## Multi Tier Architecture Diagram
+## Architecture
+### Entity Relationship Diagram
+### Use Case Diagram
+### Multi Tier Architecture Diagram
 
-# Risk Assessment
+## Risk Assessment
 
 
