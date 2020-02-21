@@ -10,6 +10,7 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ## Table of Contents
 
 1. Brief
+    + Proposal
 2. Project Plan
     + Trello Board
 3. Architechure
@@ -17,9 +18,18 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
     + Use Case Diagram
     + Multi Tier Architecture Diagram
 4. Risk Assessment
+5. Application Design
+    + Front End
+    + Back End
+6. Testing
+    + Pytest
+    + Postman
+    + Testing Conclusion
+7. Deployment
+  
 
 ## Brief
-
+### Proposal
 ## Project Plan
 ### Trello Board
 
