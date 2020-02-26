@@ -24,11 +24,9 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ### Trello Board
 
 ## Architecture
-Inline-style: 
-![ERD Diagram](https://drive.google.com/open?id=1XEZlsQg4cVcx509JxaJbRBwu5Z1dvpZ- "Entity relationship Diagram for")
-Format: ![Alt Text](url)
-
 ### Entity Relationship Diagram
+![GitHub Logo](https://drive.google.com/open?id=1XEZlsQg4cVcx509JxaJbRBwu5Z1dvpZ-)
+Format: ![Alt Text](url)
 ### Use Case Diagram
 ### Multi Tier Architecture Diagram
 
