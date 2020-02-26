@@ -28,6 +28,8 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ![Entity Relationship Diagram for QA SFIA Project: First Version](https://imgur.com/a/OqIcvFU)
 
 ### Use Case Diagram
+![Use Case Diagram showcasing how users and functions work within the system](https://imgur.com/oDb135g)
+
 ### Multi Tier Architecture Diagram
 
 ## Risk Assessment
