@@ -26,6 +26,7 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ## Architecture
 Inline-style: 
 ![ERD Diagram](https://drive.google.com/open?id=1XEZlsQg4cVcx509JxaJbRBwu5Z1dvpZ- "Entity relationship Diagram for")
+Format: ![Alt Text](url)
 
 ### Entity Relationship Diagram
 ### Use Case Diagram
