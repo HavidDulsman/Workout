@@ -9,13 +9,13 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 
 ## Table of Contents
 
-1. Brief
+1. [Brief](https://github.com/HavidDulsman/Workout/tree/developer#brief)
 2. [Project Plan](https://github.com/HavidDulsman/Workout/tree/developer#brief)
     + [Trello Board](https://github.com/HavidDulsman/Workout/tree/developer#trello-board)
-3. Architechure
-    + Entity Relationship Diagram
-    + Use Case Diagram
-    + Multi Tier Architecture Diagram
+3. [Architechure](https://github.com/HavidDulsman/Workout/tree/developer#brief)
+    + [Entity Relationship Diagram](https://github.com/HavidDulsman/Workout/tree/developer#entity-relationship-diagram)
+    + [Use Case Diagram](https://github.com/HavidDulsman/Workout/tree/developer#use-case-diagram)
+    + [Multi Tier Architecture Diagram](https://github.com/HavidDulsman/Workout/tree/developer#use-case-diagram)
 4. [Risk Assessment](https://github.com/HavidDulsman/Workout/blob/developer/README.md#risk-assessment)
 
 ## Brief
