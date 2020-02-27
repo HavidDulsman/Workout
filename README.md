@@ -10,8 +10,8 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ## Table of Contents
 
 1. Brief
-2. Project Plan
-    + Trello Board
+2. [Project Plan](https://github.com/HavidDulsman/Workout/tree/developer#brief)
+    + [Trello Board](https://github.com/HavidDulsman/Workout/tree/developer#trello-board)
 3. Architechure
     + Entity Relationship Diagram
     + Use Case Diagram
