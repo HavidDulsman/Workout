@@ -16,7 +16,7 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
     + Entity Relationship Diagram
     + Use Case Diagram
     + Multi Tier Architecture Diagram
-4. Risk Assessment
+4. [Risk Assessment](https://github.com/HavidDulsman/Workout/tree/developer/README##Risk_Assessment)
 
 ## Brief
 
@@ -34,6 +34,3 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 
 ## Risk Assessment
 
-# Twice!
-
-### this is in the developer branch
