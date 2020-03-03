@@ -22,6 +22,7 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 
 ## Project Plan
 ### Trello Board
+![Trello Board: In-Progress](https://imgur.com/a/3VoApPt)
 
 ## Architecture
 ### Entity Relationship Diagram
