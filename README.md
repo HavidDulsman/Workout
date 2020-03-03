@@ -21,8 +21,10 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ## Brief
 
 ## Project Plan
-### Trello Board
-![Trello Board: In-Progress](https://i.imgur.com/ioEVzoG.png)
+### Kanban Board
+![Trello Board: In-Progress](https://i.imgur.com/8p3gPaO.png)
+
+The contents of the task backlog are designed based of the **User Stories**, which are themselves based of the requirements of the users. The 
 
 ## Architecture
 ### Entity Relationship Diagram
