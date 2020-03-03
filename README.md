@@ -33,9 +33,9 @@ Firstly, I believe the minimal product would require workouts to be made and sto
 Outside of these 3 tables, other desirable features such as **a user login system** and **categorised actions** require their own tables, however these will be implemented if their is minimal risk to the exisiting project after its completition.
 
 ### Use Case Diagram
-This Use Case Diagram represents how a user interacts with the system. It is worth noting that the diagram only shows off the **Minimum-deliverable system**. The diagram shows of the 2 users, **user** and **admin/developer** as well as their relations to system functions. The user has the majority of the interactions w
+This Use Case Diagram represents how a user interacts with the system. It is worth noting that the diagram only shows off the **Minimum-deliverable system**. 
 ![Use Case Diagram showcasing how users and functions work within the system](https://i.imgur.com/zM1Anws.png)
-
+The diagram shows of the 2 users, **user** and **admin/developer** as well as their relations to system functions. The user has the majority of the interactions with the system, including creating, editing and deleting their workouts, as well as viewing what each action consists of. These interactions also extends into the system updating its records of workout. As for the developer, the developers only real interaction is via adding new actions for the user to use, but this will be via SQL queries.
 ### Multi Tier Architecture Diagram
 
 ## Risk Assessment
