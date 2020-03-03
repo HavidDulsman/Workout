@@ -33,7 +33,8 @@ Firstly, I believe the minimal product would require workouts to be made and sto
 Outside of these 3 tables, other desirable features such as **a user login system** and **categorised actions** require their own tables, however these will be implemented if their is minimal risk to the exisiting project after its completition.
 
 ### Use Case Diagram
-![Use Case Diagram showcasing how users and functions work within the system](https://i.imgur.com/oDb135g.jpg)
+This Use Case Diagram represents how a user interacts with the system.
+![Use Case Diagram showcasing how users and functions work within the system](https://i.imgur.com/zM1Anws.png)
 
 ### Multi Tier Architecture Diagram
 
