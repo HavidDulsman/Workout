@@ -22,14 +22,14 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 
 ## Project Plan
 ### Trello Board
-![Trello Board: In-Progress](https://imgur.com/a/3VoApPt)
+![Trello Board: In-Progress](https://i.imgur.com/ioEVzoG.png)
 
 ## Architecture
 ### Entity Relationship Diagram
-![Entity Relationship Diagram for QA SFIA Project: First Version](https://imgur.com/a/OqIcvFU)
+![Entity Relationship Diagram for QA SFIA Project: First Version](https://i.imgur.com/VCkA0So.png)
 
 ### Use Case Diagram
-![Use Case Diagram showcasing how users and functions work within the system](https://imgur.com/oDb135g)
+![Use Case Diagram showcasing how users and functions work within the system](https://i.imgur.com/oDb135g.jpg)
 
 ### Multi Tier Architecture Diagram
 
