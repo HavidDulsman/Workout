@@ -26,7 +26,11 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 
 ## Architecture
 ### Entity Relationship Diagram
+For my Entity Relationship Diagram, I opted to utilise the **MoSCow Prioritisation Method** in order to identify key areas of development. This will allow me to create a functional product **as early as possible**, and then increase the scale of my project once the minimum requirement is complete.
 ![Entity Relationship Diagram for QA SFIA Project: First Version](https://i.imgur.com/VCkA0So.png)
+Firstly, I believe the minimal product would require workouts to be made and stored, containing actions suitable for a gym workout. One of the main requirements was to display a working **many-to-many relationship between two tables**. My 'workout' and 'action' tables share that relationship, and to work requires a **Bridging Table** in order to store each combination of data, as well as improve data structure.
+
+Outside of these 3 tables, other desirable features such as **a user login system** and **categorised actions** require their own tables, however these will be implemented if their is minimal risk to the exisiting project after its completition.
 
 ### Use Case Diagram
 ![Use Case Diagram showcasing how users and functions work within the system](https://i.imgur.com/oDb135g.jpg)
