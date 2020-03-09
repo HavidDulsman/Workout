@@ -24,7 +24,9 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ### Kanban Board
 ![Trello Board: In-Progress](https://i.imgur.com/8p3gPaO.png)
 
-The contents of the task backlog are designed based of the **User Stories**, which are themselves based of the requirements of the users. The 
+The contents of the task backlog are designed based of the **User Stories**, which are themselves based of the requirements of the users. The tasks will make their way back and forth until they are completed. Bugs are also recorded and put in the 'Done' column once ammended.
+
+Some of the users stories have been tagged **Orange** to identify that they are additional user requirements that are not necessary to the minimum required product, and requests that may or may not be dealt with after all of the core tasks have been completed
 
 ## Architecture
 ### Entity Relationship Diagram
