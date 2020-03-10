@@ -1,5 +1,3 @@
-# README
-
 # Workout: Create and track your daily workouts!
 
 
@@ -47,3 +45,12 @@ The diagram shows of the 2 users, **user** and **admin/developer** as well as th
 
 ## Risk Assessment
 A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using [this link.](https://github.com/HavidDulsman/Workout/blob/developer/workout_Risk.xlsx)
+
+## Deployment
+
+![Deployment pipeline diagram of use softwares](https://i.imgur.com/rz4D02h.png)
+
+### List of used technologies and languages
+
+## Acknowledgements
+The boys, past and present. You know who you are.
