@@ -63,5 +63,12 @@ A risk assessment was compiled to look and examine risk related to the project, 
     - **MySQL:** Allows for access of SQL Databases, as well as query-based functions
 * **Trello:** Kanban board and Project tracking
 
+## Project Retrospective
+### Notable Achievements
+### Future Improvements
+
+## Authors
+David Hulsman
+
 ## Acknowledgements
 The boys, past and present. You know who you are.
