@@ -57,6 +57,11 @@ A risk assessment was compiled to look and examine risk related to the project, 
 * **Visual Studio Code:** IDE for frontend and backend development. Used the following languages:
     - **Python 3:** Logic and Functionality
     - **HTML:** Front-end GUI design
+    - **CSS:** Styling and design of front-end GUI
+    - **Flask:** Connects front-end and back-end
+    - **Jinja2:** Pass variables between Python and HTML
+    - **MySQL:** Allows for access of SQL Databases, as well as query-based functions
+* **Trello:** Kanban board and Project tracking
 
 ## Acknowledgements
 The boys, past and present. You know who you are.
