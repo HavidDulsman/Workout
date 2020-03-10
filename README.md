@@ -51,6 +51,12 @@ A risk assessment was compiled to look and examine risk related to the project, 
 ![Deployment pipeline diagram of use softwares](https://i.imgur.com/rz4D02h.png)
 
 ### List of used technologies and languages
+* **GitHub:** Version Control System
+* **Jenkins:** Continuous Intergration Server
+* **Google Cloud Services:** Live Environment + SQL Database Host
+* **Visual Studio Code:** IDE for frontend and backend development. Used the following languages:
+    - **Python 3:** Logic and Functionality
+    - **HTML:** Front-end GUI design
 
 ## Acknowledgements
 The boys, past and present. You know who you are.
