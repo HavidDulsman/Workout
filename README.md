@@ -15,6 +15,13 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
     + [Use Case Diagram](https://github.com/HavidDulsman/Workout/tree/developer#use-case-diagram)
     + [Multi Tier Architecture Diagram](https://github.com/HavidDulsman/Workout/tree/developer#use-case-diagram)
 4. [Risk Assessment](https://github.com/HavidDulsman/Workout/blob/developer/README.md#risk-assessment)
+5. [Deployment](https://github.com/HavidDulsman/Workout/tree/developer#deployment)
+    + [List of Technologies Used](https://github.com/HavidDulsman/Workout/tree/developer#list-of-used-technologies-and-languages)
+6. [Project Retrospective](https://github.com/HavidDulsman/Workout/tree/developer#project-retrospective)
+    + [Notable Achievements](https://github.com/HavidDulsman/Workout/tree/developer#notable-achievements)
+    + [Future Improvements](https://github.com/HavidDulsman/Workout/tree/developer#future-improvements)
+ 
+
 
 ## Brief
 
