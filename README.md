@@ -24,7 +24,11 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 
 
 ## Brief
-
+As quoted from 'QAC - Fundamental Project Specification (DevOps Core)':
+    
+    " Your overall objective with thisproject is the following:
+    To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate                  all core modules covered during training. "
+    
 ## Project Plan
 ### Kanban Board
 ![Trello Board: In-Progress](https://i.imgur.com/8p3gPaO.png)
