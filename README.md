@@ -51,7 +51,7 @@ This Use Case Diagram represents how a user interacts with the system. It is wor
 The diagram shows of the 2 users, **user** and **admin/developer** as well as their relations to system functions. The user has the majority of the interactions with the system, including creating, editing and deleting their workouts, as well as viewing what each action consists of. These interactions also extends into the system updating its records of workout. As for the developer, the developers only real interaction is via adding new actions for the user to use, but this will be via SQL queries.
 
 ## Risk Assessment
-A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using [this link.](https://github.com/HavidDulsman/Workout/blob/developer/workout_Risk.xlsx)
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using [this link.](https://github.com/HavidDulsman/Workout/blob/developer/workout_Risk-2.xlsx)
 
 ## Deployment
 
