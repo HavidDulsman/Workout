@@ -32,7 +32,10 @@ As quoted from 'QAC - Fundamental Project Specification (DevOps Core)-revised':
       that encapsulate all core modules covered during training. "
 ### Requirements
 Some of the requirements for a 'Minimal Viable Product' included:
-+ 
+* The use of two relational tables
+* Complete utilization of CRUD Functionality in application
+* Fully Designede test suits
+* Intergration into a Version-Control System
     
 ## Project Plan
 ### Kanban Board
