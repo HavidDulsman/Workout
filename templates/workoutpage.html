@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="p_title">
+    <h1>My workout details</h1>
+
+    <h2>Actions & Exercises</h2>
+    {% for i in workout_info1 %}
+        <li style="padding-left: 20px; list-style-type:none; color: white;">
+            <a>{{ i }}</a>
+        </li>
+    {% endfor %}
+    <h2>Add a new exercise to your routine</h2>
+    
+<form method="POST" action="{{url_for('get_workout_actions')}}" style="padding-left: 20px;">
+    <label for="category">Choose Actions for your routine: </label>
+        <select id="category" name="actionChoice" style="color: black;">
+            {% for i in info1 %}
+            <option value="{{ i[0] }}">{{ i[1] }}</option>
+            {% endfor %}
+        </select>
+    <input type = "submit" style="color: black;",  onclick="window.location.href = '/workoutpage'">
+</form>
+</div>
+<div class="p_title_alt" style="padding-left: 20px;">
+    <form method="POST" action="{{url_for('delete_action_from_workout')}}">
+        <h2>Remove a exercise</h2>
+            Action:  <input type = "text" name= "dAName" />
+            <input type = "submit">
+    </form>
+    <form method="POST" action= "{{url_for('edit_workout_name')}}">
+        <h2>Update Routine Name</h2>
+            New Routine name:  <input type = "text" name= "newName" />
+            <input type = "submit">
+    </form>
+</div>
+<!-- i want this working!!!!!-->
+{% endblock %}
