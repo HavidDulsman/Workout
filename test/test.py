@@ -88,7 +88,7 @@ def test_create_routine():
 def test_update_workout():
     with app.app_context():
         cur = mysql.connection.cursor()
-        cur.execute("UPDATE workout SET name_workout = 'Getting ready for Ibiza' WHERE workout_id = '50';")
+        cur.execute("UPDATE workout SET name_workout = 'Getting ready for Ibiza' WHERE id_workout = '50';")
         mysql.connection.commit()
         numWorkouts = cur.execute("SELECT * FROM workout;")
         mysql.connection.commit()
