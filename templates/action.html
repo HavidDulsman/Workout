@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="p_title">
+    <h1>Actions & Exercises</h1>
+</div>
+
+    {% for i in info1 %}
+        <li style="padding-left: 20px; list-style-type:none;">
+            <a>{{ i[1] }}</a>
+        </li>
+    {% endfor %}
+
+<div class="p_body">
+    <form method="POST" action="{{url_for('new_action')}}">
+        <h1>Create New Action</h1>
+        Action Name:  <input type = "text" name= "aName" /> 
+        <label for="category">Choose Category:  </label>
+        <select id="category" name="catChoice">
+            <option value="1">Legs</option>
+            <option value="2">Chest</option>
+            <option value="3">Shoulders</option>
+            <option value="4">Back</option>
+            <option value="5">Arms</option>
+            <option value="6">Abs</option>
+        </select>
+        
+        <input type = "submit">
+</form>
+    <form method="POST" action="{{url_for('delete_action')}}">
+    <h1>Delete Existing Action</h1>
+        Action:  <input type = "text" name= "dName" />
+        <input type = "submit">
+    </form>
+    
+</div>
+
+{% endblock %}

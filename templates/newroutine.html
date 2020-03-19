@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="p_title">
+    <h1>Create New Routine</h1>
+</div>
+<form method="POST" action="{{url_for('create_new_workout')}}" style="padding-left: 20px;">
+        <br/>
+        <p style = "color: white";> Routine Name</p> <input type = "text" name= "wName" /> 
+        <div>
+            <!--<label for="body">Chose Colour: </label>
+            <input type="color" id="body" name="body"
+                    value="#f6b73c">
+        </div>-->
+        <br/>
+        <input type = "submit">
+</form>
+{% endblock %}

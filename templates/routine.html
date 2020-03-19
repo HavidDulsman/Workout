@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="p_title">
+    <h1>My Routines</h1>
+</div>
+<br/>
+    <form method="POST" action="">
+    <div class="homepage_bttn" style="padding-left: 20px; padding-right: 15px; float:left;">
+        <select id="workout" name= "workout"><br/>
+        {% for i in info1 %}
+        <option value="{{ i[0] }}">{{ i[1] }}</option>
+        {% endfor %}
+        </select>
+      </div>
+    <button onclick="window.location.href = '/workoutpage'";>go to routine</button>
+    </form>
+        <div class="homepage_bttn" style="padding-left: 20px; float: left;">
+            <button class="button buttonneww"; onclick="window.location.href='/newroutine'"><span class="glyphicon glyphicon-plus"></span><br/> Create new workout</button>
+          </div>
+</div>
+{% endblock %}

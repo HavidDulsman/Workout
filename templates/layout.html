@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Workout: Record your workout routines!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <style>
+            /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+            body {
+            background-image: url("https://i.imgur.com/N4sC5oK.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: block;
+            }
+            
+            .navbar {
+                
+            margin-bottom: 50px;
+            border-radius: 0;
+            }
+            
+            /* Remove the jumbotron's default bottom margin */ 
+            .jumbotron {
+            margin-bottom: 0;
+            background-color: rgba(255, 255, 255, 0);
+            
+            color: white;
+
+            }
+
+            .homepage {
+                color:white;
+                padding-right: 400px;
+                padding-left: 400px;
+            }
+        
+            /* Add a gray background color and some padding to the footer */
+            footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            }
+            .button5 {
+            background-color: #555555;
+            color: white;
+            border: 2px solid #555555;
+            font-size: large;
+            width: 200px;
+            height: 50px;
+            }
+
+            .button5:hover {
+            background-color: #161616;
+            color: white;
+            border: 2px solid #161616;
+            font-size: large;
+            width: 200px;
+            height: 50px;
+            }
+
+            .buttonworkout {
+            background-color: #555555;
+            color: white;
+            border: 2px solid #555555;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+
+            .buttonworkout:hover {
+            background-color: #161616;
+            color: white;
+            border: 2px solid #161616;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+
+            .buttonnone {
+            background-color: #8a8787;
+            color: white;
+            border: 2px solid #8a8787;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+
+            .buttonnone:hover {
+            background-color: #3d3d3d;
+            color: white;
+            border: 2px solid #3d3d3d;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+            .buttonwork {
+            background-color: #1730be;
+            color: white;
+            border: 2px solid #1730be;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+
+            .buttonwork:hover {
+            background-color: #3147c2;
+            color: white;
+            border: 2px solid #3147c2;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+            .buttonneww {
+            background-color: #555555;
+            color: white;
+            border: 2px solid #555555;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+
+            .buttonneww:hover {
+            background-color: #161616;
+            color: white;
+            border: 2px solid #161616;
+            font-size: large;
+            width: 230px;
+            height: 230px;
+            }
+            
+            .p_title {
+            color: white;
+            padding-left: 20px; 
+            }
+
+            .p_title_alt {
+            color: black;
+            padding-left: 20px; 
+            }
+            .p_body{
+            color: black;
+            padding-left: 20px; 
+            }
+            
+        </style>
+</head>
+<body>
+
+    {% include 'includes/_navbar.html' %}
+
+    {% block body %}{% endblock %}
+  
+    {% include 'includes/_footer.html' %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
