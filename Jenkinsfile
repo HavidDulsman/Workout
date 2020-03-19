@@ -6,7 +6,6 @@ pipeline {
                 
                 sh 'chmod +x ./script/*'
                 sh './script/before_installation.sh'
-                echo "setup complete"
                 sh './script/run.sh'
             }
         }
