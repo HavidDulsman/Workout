@@ -12,4 +12,4 @@ pip3 install flask_mysqldb
 
 source ~/.bashrc
 
-python3 /var/lib/jenkins/workspace/flaskapps/flaskprojects/app.py
+python3 /var/lib/jenkins/workspace/workout-pipeline/app.py
