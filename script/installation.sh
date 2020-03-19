@@ -4,7 +4,7 @@ pip3 install pytest
 
 pip3 install urllib3
 
-pip3 isntall coverage
+pip3 install coverage
 
 pip3 install flask
 
