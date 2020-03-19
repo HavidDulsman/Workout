@@ -38,6 +38,7 @@ Some of the requirements for a 'Minimal Viable Product' included:
 * Fully Designede test suits
 * Intergration into a Version-Control System
     
+
 ## Project Plan
 ### Kanban Board
 ![Trello Board: In-Progress](https://i.imgur.com/8p3gPaO.png)
