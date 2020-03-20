@@ -85,11 +85,14 @@ A risk assessment was compiled to look and examine risk related to the project, 
 * **Trello:** Kanban board and Project tracking
 
 ## Testing
-
-### Testing Report
-This testing report was made using a combination of the **Pytest** and **Coverage** tools for Python, and where displayed at the end of a Jenkins Pipeline build report. This was made possible thanks to various shell script files and clever cloning of the project files onto a new Jenkins Virtual Machine. Find a preview and overall coverage score below:
+### Pytest Functionality
+Testing the functionality of my finished product was very important during the end of development. Using the **Pytest** tool, I developed functions that would firstly test the 9 URLs of the page and if they would display a **HTTP 200** message, that means the page is ok with no errors.  Secondly, I though it was important to test the 4 main CRUD functions of my application, so i have also include 1 of each of the functions in my testing.
 
 ![Pytest Report](https://i.imgur.com/xeyy7tr.png)
+
+### Coverage Report
+This coverage report was made using a combination of the **Pytest** and **Coverage** tools for Python, and where displayed at the end of a Jenkins Pipeline build report. This was made possible thanks to various shell script files and clever cloning of the project files onto a new Jenkins Virtual Machine. Find a preview and overall coverage score below:
+
 ![Coverage Report TOP](https://i.imgur.com/SkvSTyX.png)
 ![Coverage Report BOTTOM](https://i.imgur.com/icQ7UC9.png)
 
@@ -112,4 +115,4 @@ This section of the report was completed either after the project was completed 
 David Hulsman
 
 ## Acknowledgements
-The boys, past and present. You know who you are.
+My Family for supporting me during this training period, as well as Syed for his laidback, but also enjoyable and informative training sessions 
