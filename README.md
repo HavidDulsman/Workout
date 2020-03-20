@@ -119,7 +119,11 @@ This coverage report was made using a combination of the **Pytest** and **Covera
 ## Project Retrospective
 This section of the report was completed either after the project was completed to its fullest or at the point of minimal delivery. The retrospective will reveal areas of success during the projects life, whilst also suggesting future improvements based on some of the shortcomings of the project.
 ### Notable Achievements
-#### Good use of DevOps practices
+#### Good use of DevOps practices and Agile Methodologies
+Many common DevOps practices where used in conjunction with this project. The vast majority of the work outside of this readme.md file was completed on a seperate **developer branch** and work was only pushed up to the master branch once in a stable state. More branches wouldve been made and pushed to the developer branch if more people where part of my team.
+![Pushing from developer to master](https://i.imgur.com/i8Sm3yl.png)
+
+
 #### Git Webhook to Jenkins
 ![Webhook on Github linked to my Jenkins repository](https://i.imgur.com/qMv0YIj.png)
 #### Website Aesthetics 
