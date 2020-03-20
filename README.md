@@ -65,7 +65,7 @@ This Use Case Diagram represents how a user interacts with the system. It is wor
 The diagram shows of the 2 users, **user** and **admin/developer** as well as their relations to system functions. The user has the majority of the interactions with the system, including creating, editing and deleting their workouts, as well as viewing what each action consists of. These interactions also extends into the system updating its records of workout. As for the developer, the developers only real interaction is via adding new actions for the user to use, but this will be via SQL queries.
 
 ## Risk Assessment
-A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using [this link.](https://github.com/HavidDulsman/Workout/blob/developer/workout_Risk-2.xlsx)
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using [this link.](https://github.com/HavidDulsman/Workout/blob/master/documentation/workout_Risk-2.xlsx)
 
 ## Deployment
 
@@ -84,9 +84,25 @@ A risk assessment was compiled to look and examine risk related to the project, 
     - **MySQL:** Allows for access of SQL Databases, as well as query-based functions
 * **Trello:** Kanban board and Project tracking
 
+## Testing
+
+### Testing Report
+This testing report was made using a combination of the **Pytest** and **Coverage** tools for Python, and where displayed at the end of a Jenkins Pipeline build report. This was made possible thanks to various shell script files and clever cloning of the project files onto a new Jenkins Virtual Machine. Find a preview and overall coverage score below:
+
+## Front-end Design
+
+
 ## Project Retrospective
+This section of the report was completed either after the project was completed to its fullest or at the point of minimal delivery. The retrospective will reveal areas of success during the projects life, whilst also suggesting future improvements based on some of the shortcomings of the project.
 ### Notable Achievements
+#### Good use of DevOps practices
+#### Git Webhook to Jenkins
+![Webhook on Github linked to my Jenkins repository](https://i.imgur.com/qMv0YIj.png)
+#### Website Aesthetics 
 ### Future Improvements
+#### Increased testing coverage
+#### Dynamic templates and features
+#### Branch Management
 
 ## Authors
 David Hulsman
