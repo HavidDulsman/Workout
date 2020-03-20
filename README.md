@@ -18,7 +18,11 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 4. [Risk Assessment](https://github.com/HavidDulsman/Workout/blob/developer/README.md#risk-assessment)
 5. [Deployment](https://github.com/HavidDulsman/Workout/tree/developer#deployment)
     + [List of Technologies Used](https://github.com/HavidDulsman/Workout/tree/developer#list-of-used-technologies-and-languages)
-6. [Project Retrospective](https://github.com/HavidDulsman/Workout/tree/developer#project-retrospective)
+6. [Testing](https://github.com/HavidDulsman/Workout#testing)
+    + [Pytest Report](https://github.com/HavidDulsman/Workout#pytest-functionality)
+    + [Coverage Report](https://github.com/HavidDulsman/Workout#coverage-report)
+7. [Front-end Design](https://github.com/HavidDulsman/Workout#front-end-design)
+8. [Project Retrospective](https://github.com/HavidDulsman/Workout/tree/developer#project-retrospective)
     + [Notable Achievements](https://github.com/HavidDulsman/Workout/tree/developer#notable-achievements)
     + [Future Improvements](https://github.com/HavidDulsman/Workout/tree/developer#future-improvements)
  
@@ -106,10 +110,23 @@ This section of the report was completed either after the project was completed 
 #### Git Webhook to Jenkins
 ![Webhook on Github linked to my Jenkins repository](https://i.imgur.com/qMv0YIj.png)
 #### Website Aesthetics 
+### Project Shortcomings
+#### Lack of action search functionality
+Whilst the category table was included in the final version, little was really done with the categories outside of back-end SQL testing. It would have been really good to include a feature that would have filtered out actions depending on their category, but mostly time constraints stopped this from being achieved.
+
+#### Absense of User login
+As explained during the design phase of the project, a log in feature would have been ideal as it would have allowed the system to only show the workouts made by that user. Unfortunately due to time constraints and overestimasting my ability, i opted to leave that function out of the end product. 
+
+Its absense had little affect on the project, as i carefully followed my MoSCoW methodology and build functions to be independant of logins. Also the login feature would have had little affect on my overall mark, so it was the obvious that it would be the first feature to leave out.
 ### Future Improvements
 #### Increased testing coverage
-#### Dynamic templates and features
+As shown previous in the [Coverage Report](https://github.com/HavidDulsman/Workout#coverage-report) section of the readme file, there was little coverage of the application, even though alot of its core features where tested. This is definately an area i would like to improve in later projects
+
+#### Dynamic templates
+Whilst something similar was implemented into the final product, i would have loved to incorporate dynamic pages and templates, especially on a routines individual page. This could have been achieved if i had used WhatTheForms during development, or used a different coding langauge.
+
 #### Branch Management
+Various time during the development did i have issues regarding the branches of development and which ones i was pushing and pulling from. Although i eventually got the hang of it, i would have prevented alot of early problems. I expect the next project to be much more smoother as i start to master basic git commands.
 
 ## Authors
 David Hulsman
