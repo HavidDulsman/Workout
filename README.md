@@ -121,12 +121,19 @@ This section of the report was completed either after the project was completed 
 ### Notable Achievements
 #### Good use of DevOps practices and Agile Methodologies
 Many common DevOps practices where used in conjunction with this project. The vast majority of the work outside of this readme.md file was completed on a seperate **developer branch** and work was only pushed up to the master branch once in a stable state. More branches wouldve been made and pushed to the developer branch if more people where part of my team.
+
 ![Pushing from developer to master](https://i.imgur.com/i8Sm3yl.png)
 
+![No conflicts with merge](https://i.imgur.com/NUO9k94.png)
 
 #### Git Webhook to Jenkins
+The Inclusion of a Webhook between my github and jenkins means that my Jenkins VM will always create and test every new build of my website, giving me new information on any new tests or coverage I have set up
+
 ![Webhook on Github linked to my Jenkins repository](https://i.imgur.com/qMv0YIj.png)
-#### Website Aesthetics 
+
+#### Website Aesthetics
+The styles and aesthetics of my application go very well with the themes of a workout. Using both a minimalist design that also blends very well with the background make using the app a enjoyable experience. Most of the features made also use the same page, so there is little travel on the site and always tries to reveal all of the options for its users.
+
 ### Project Shortcomings
 #### Lack of action search functionality
 Whilst the category table was included in the final version, little was really done with the categories outside of back-end SQL testing. It would have been really good to include a feature that would have filtered out actions depending on their category, but mostly time constraints stopped this from being achieved.
