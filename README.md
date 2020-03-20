@@ -101,7 +101,20 @@ This coverage report was made using a combination of the **Pytest** and **Covera
 ![Coverage Report BOTTOM](https://i.imgur.com/icQ7UC9.png)
 
 ## Front-end Design
+### Homepage
+![Homepage](https://i.imgur.com/vBuoaQw.png)
 
+### My Routines
+![My Routines](https://i.imgur.com/lhhJKsv.png)
+
+### New Routine
+![New Routine](https://i.imgur.com/7MEpcXx.png)
+
+### Routine Details 
+![Routine Details](https://i.imgur.com/poDoDiE.png)
+
+### Actions
+![Actions](https://i.imgur.com/Y3eVol5.png)
 
 ## Project Retrospective
 This section of the report was completed either after the project was completed to its fullest or at the point of minimal delivery. The retrospective will reveal areas of success during the projects life, whilst also suggesting future improvements based on some of the shortcomings of the project.
