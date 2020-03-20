@@ -89,6 +89,10 @@ A risk assessment was compiled to look and examine risk related to the project, 
 ### Testing Report
 This testing report was made using a combination of the **Pytest** and **Coverage** tools for Python, and where displayed at the end of a Jenkins Pipeline build report. This was made possible thanks to various shell script files and clever cloning of the project files onto a new Jenkins Virtual Machine. Find a preview and overall coverage score below:
 
+![Pytest Report](https://i.imgur.com/qMv0YIj.png)
+![Coverage Report TOP](https://i.imgur.com/SkvSTyX.png)
+![Coverage Report BOTTOM](https://i.imgur.com/icQ7UC9.png)
+
 ## Front-end Design
 
 
