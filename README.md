@@ -55,8 +55,11 @@ Some of the requirements for a 'Minimal Viable Product' included:
 #### Sprint 3:
 ![Sprint 3](https://i.imgur.com/Tn9U6s0.png)
 
-#### Completition: 
-![Sprint 4](https://i.imgur.com/Tn9U6s0.png)
+#### Sprint 4: 
+![Sprint 4](https://i.imgur.com/d099D8P.png)
+
+#### Completition
+![Completition](https://i.imgur.com/2mkrmAs.jpg)
 
 The contents of the task backlog are designed based of the **User Stories**, which are themselves based of the requirements of the users. The tasks will make their way back and forth until they are completed. Bugs are also recorded and put in the 'Done' column once ammended.
 
