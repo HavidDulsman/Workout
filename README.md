@@ -53,10 +53,10 @@ Some of the requirements for a 'Minimal Viable Product' included:
 ![Sprint 2](https://i.imgur.com/d099D8P.png)
 
 #### Sprint 3:
-![Sprint 3](https://i.imgur.com/Tn9U6s0.png)
+![Sprint 3](https://i.imgur.com/d099D8P.png)
 
 #### Sprint 4: 
-![Sprint 4](https://i.imgur.com/d099D8P.png)
+![Sprint 4](https://i.imgur.com/Tn9U6s0.png)
 
 #### Completition
 ![Completition](https://i.imgur.com/2mkrmAs.jpg)
