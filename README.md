@@ -24,6 +24,7 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 7. [Front-end Design](https://github.com/HavidDulsman/Workout#front-end-design)
 8. [Project Retrospective](https://github.com/HavidDulsman/Workout/tree/developer#project-retrospective)
     + [Notable Achievements](https://github.com/HavidDulsman/Workout/tree/developer#notable-achievements)
+    + [Project Shortcomings] (https://github.com/HavidDulsman/Workout#project-shortcomings)
     + [Future Improvements](https://github.com/HavidDulsman/Workout/tree/developer#future-improvements)
  
 
@@ -45,7 +46,17 @@ Some of the requirements for a 'Minimal Viable Product' included:
 
 ## Project Plan
 ### Kanban Board
-![Trello Board: In-Progress](https://i.imgur.com/8p3gPaO.png)
+#### Sprint 1: 
+![Sprint 1](https://i.imgur.com/259qGPb.png)
+
+#### Sprint 2:
+![Sprint 2](https://i.imgur.com/d099D8P.png)
+
+#### Sprint 3:
+![Sprint 3](https://i.imgur.com/Tn9U6s0.png)
+
+#### Completition: 
+![Sprint 4](https://i.imgur.com/Tn9U6s0.png)
 
 The contents of the task backlog are designed based of the **User Stories**, which are themselves based of the requirements of the users. The tasks will make their way back and forth until they are completed. Bugs are also recorded and put in the 'Done' column once ammended.
 
