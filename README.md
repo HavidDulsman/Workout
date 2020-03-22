@@ -47,23 +47,26 @@ Some of the requirements for a 'Minimal Viable Product' included:
 ## Project Plan
 ### Kanban Board
 #### Sprint 1: 
-![Sprint 1](https://i.imgur.com/259qGPb.png)
-
-#### Sprint 2:
-![Sprint 2](https://i.imgur.com/d099D8P.png)
-
-#### Sprint 3:
-![Sprint 3](https://i.imgur.com/d099D8P.png)
-
-#### Sprint 4: 
-![Sprint 4](https://i.imgur.com/Tn9U6s0.png)
-
-#### Completition
-![Completition](https://i.imgur.com/2mkrmAs.jpg)
-
 The contents of the task backlog are designed based of the **User Stories**, which are themselves based of the requirements of the users. The tasks will make their way back and forth until they are completed. Bugs are also recorded and put in the 'Done' column once ammended.
 
 Some of the users stories have been tagged **Orange** to identify that they are additional user requirements that are not necessary to the minimum required product, and requests that may or may not be dealt with after all of the core tasks have been completed
+
+![Sprint 1](https://i.imgur.com/hmL0B6f.png)
+
+#### Sprint 2:
+![Sprint 2](https://i.imgur.com/3LyXYcU.png)
+
+#### Sprint 3:
+![Sprint 3](https://i.imgur.com/EtvHDba.png)
+
+#### Sprint 4: 
+![Sprint 4](https://i.imgur.com/vDIDkrP.png)
+
+#### Sprint 5:
+![Sprint 5](https://i.imgur.com/l6GnjQg.png)
+
+#### Completition
+![Completiton](https://i.imgur.com/gyEe47o.jpg)
 
 ## Architecture
 ### Entity Relationship Diagram
