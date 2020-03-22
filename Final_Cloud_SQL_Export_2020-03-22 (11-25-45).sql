@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.25, for Linux (x86_64)
 --
--- Host: localhost    Database: workout
+-- Host: localhost    Database: mysql
 -- ------------------------------------------------------
 -- Server version	5.7.25-google-log
 
@@ -37,7 +37,7 @@ CREATE TABLE `Action` (
   PRIMARY KEY (`id_action`),
   KEY `id_category` (`id_category`),
   CONSTRAINT `Action_ibfk_1` FOREIGN KEY (`id_category`) REFERENCES `category` (`id_category`)
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -46,7 +46,7 @@ CREATE TABLE `Action` (
 
 LOCK TABLES `Action` WRITE;
 /*!40000 ALTER TABLE `Action` DISABLE KEYS */;
-INSERT INTO `Action` VALUES (1,'Leg Raise',1),(2,'Squats',1),(3,'Bench Press',2),(4,'Pectoral Flys',2),(5,'Front Raises',3),(6,'Seated Row',4),(7,'Deadlift',4),(8,'Lat Pulldowns',4),(9,'Bicep Curls',5),(10,'Hammer Curls',5),(11,'Skull Crushers',5),(12,'Overhead Tricep Extensions',5),(13,'Pull Downs',5),(14,'Sit Ups',6),(15,'Leg Raises',6),(16,'Planks',6);
+INSERT INTO `Action` VALUES (3,'Bench Press',2),(4,'Pectoral Flys',2),(5,'Front Raises',3),(6,'Seated Row',4),(7,'Deadlift',4),(8,'Lat Pulldowns',4),(9,'Bicep Curls',5),(10,'Hammer Curls',5),(11,'Skull Crushers',5),(12,'Overhead Tricep Extensions',5),(15,'Leg Raises',6),(35,'Figure Eights',4),(36,'Face Pulls',4),(40,'1 Minute Plank',6),(41,'High Intense Super Sets',3);
 /*!40000 ALTER TABLE `Action` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -75,31 +75,6 @@ INSERT INTO `category` VALUES (1,'Legs'),(2,'Chest'),(3,'Shoulders'),(4,'Back'),
 UNLOCK TABLES;
 
 --
--- Table structure for table `user`
---
-
-DROP TABLE IF EXISTS `user`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `user` (
-  `id_user` int(11) NOT NULL AUTO_INCREMENT,
-  `firstname_user` varchar(12) DEFAULT NULL,
-  `surname_user` varchar(28) DEFAULT NULL,
-  `username_user` varchar(28) DEFAULT NULL,
-  PRIMARY KEY (`id_user`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `user`
---
-
-LOCK TABLES `user` WRITE;
-/*!40000 ALTER TABLE `user` DISABLE KEYS */;
-/*!40000 ALTER TABLE `user` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `workout`
 --
 
@@ -109,11 +84,8 @@ DROP TABLE IF EXISTS `workout`;
 CREATE TABLE `workout` (
   `id_workout` int(11) NOT NULL AUTO_INCREMENT,
   `name_workout` varchar(28) NOT NULL,
-  `id_user` int(11) NOT NULL,
-  PRIMARY KEY (`id_workout`),
-  KEY `id_user` (`id_user`),
-  CONSTRAINT `workout_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`id_workout`)
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -122,6 +94,7 @@ CREATE TABLE `workout` (
 
 LOCK TABLES `workout` WRITE;
 /*!40000 ALTER TABLE `workout` DISABLE KEYS */;
+INSERT INTO `workout` VALUES (9,'Leg Day'),(10,'Early Mondays'),(24,'Back at it'),(25,'Davids Chest Day'),(26,'Syed loves the gym'),(27,'Baileys Pre Ibiza Routine'),(28,'Home Workout');
 /*!40000 ALTER TABLE `workout` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -141,7 +114,7 @@ CREATE TABLE `workout_action` (
   KEY `id_action` (`id_action`),
   CONSTRAINT `workout_action_ibfk_1` FOREIGN KEY (`id_workout`) REFERENCES `workout` (`id_workout`),
   CONSTRAINT `workout_action_ibfk_2` FOREIGN KEY (`id_action`) REFERENCES `Action` (`id_action`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -150,6 +123,7 @@ CREATE TABLE `workout_action` (
 
 LOCK TABLES `workout_action` WRITE;
 /*!40000 ALTER TABLE `workout_action` DISABLE KEYS */;
+INSERT INTO `workout_action` VALUES (39,9,4),(42,9,40),(46,26,36),(47,26,35),(48,26,3),(49,27,10),(50,27,40),(52,27,12),(53,27,4),(54,9,7),(55,27,3),(56,25,4),(57,25,8),(59,28,3),(60,28,9),(61,28,4),(62,28,10),(63,28,35),(64,28,36),(65,28,40),(66,28,41);
 /*!40000 ALTER TABLE `workout_action` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -162,4 +136,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-02-27 10:18:18
+-- Dump completed on 2020-03-22 11:26:35
