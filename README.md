@@ -24,7 +24,7 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 7. [Front-end Design](https://github.com/HavidDulsman/Workout#front-end-design)
 8. [Project Retrospective](https://github.com/HavidDulsman/Workout/tree/developer#project-retrospective)
     + [Notable Achievements](https://github.com/HavidDulsman/Workout/tree/developer#notable-achievements)
-    + [Project Shortcomings] (https://github.com/HavidDulsman/Workout#project-shortcomings)
+    + [Project Shortcomings](https://github.com/HavidDulsman/Workout#project-shortcomings)
     + [Future Improvements](https://github.com/HavidDulsman/Workout/tree/developer#future-improvements)
  
 
@@ -32,7 +32,7 @@ This Project is due Week 5 of the QA Consultancy DevOps 17th February 2020 Intak
 ## Brief
 As quoted from 'QAC - Fundamental Project Specification (DevOps Core)-revised':
     
-    " Your overall objective with thisproject is the following:
+    " Your overall objective with this project is the following:
     
     - To create a CRUD application with utilisation of supporting tools, methodologies and technologies 
       that encapsulate all core modules covered during training. "
@@ -40,8 +40,8 @@ As quoted from 'QAC - Fundamental Project Specification (DevOps Core)-revised':
 Some of the requirements for a 'Minimal Viable Product' included:
 * The use of two relational tables
 * Complete utilization of CRUD Functionality in application
-* Fully Designede test suits
-* Intergration into a Version-Control System
+* Fully Designed test suits
+* Integration into a Version-Control System
     
 
 ## Project Plan
@@ -49,12 +49,12 @@ Some of the requirements for a 'Minimal Viable Product' included:
 #### Sprint 1: 
 The contents of the task backlog are designed based of the **User Stories**, which are themselves based of the requirements of the users. The tasks will make their way back and forth until they are completed. Bugs are also recorded and put in the 'Done' column once ammended.
 
-Some of the users stories have been tagged **Orange** to identify that they are additional user requirements that are not necessary to the minimum required product, and requests that may or may not be dealt with after all of the core tasks have been completed
+Some of the user stories have been tagged **orange** to identify that they are additional user requirements that are not necessary to the minimum required product, and requests that may or may not be dealt with after all of the core tasks have been completed
 
 ![Sprint 1](https://i.imgur.com/hmL0B6f.png)
 
 #### Sprint 2:
-The 2nd Sprint focuses heaviily on front end preparation as well as testing various parts of the backend, especially SQL and database related tasks. Moving forward, I opted to vigourly test an entire function during this stage, whilst also planning and developing another closelty associated with it.
+The 2nd Sprint focuses heavily on front end preparation as well as testing various parts of the backend, especially SQL and database related tasks. Moving forward, I opted to test an entire function during this stage, whilst also planning and developing another closely associated with it.
 ![Sprint 2](https://i.imgur.com/3LyXYcU.png)
 
 #### Sprint 3:
@@ -62,16 +62,16 @@ By the 3rd sprint, many of the front end features where either completed and tes
 ![Sprint 3](https://i.imgur.com/EtvHDba.png)
 
 #### Sprint 4: 
-Sprint for took abit longer than previous stages, due to abit of confusion regarding routine functionality and styling. To counter this, the project was scaled back slightly to be more in line with my current ability set. Many of the action and routine functions are now being tested, with a couple bugs on the right side to sort out.
+Sprint for took a bit longer than previous stages, due to a bit of confusion regarding routine functionality and styling. To counter this, the project was scaled back slightly to be more in line with my current ability set. Many of the action and routine functions are now being tested, with a couple bugs on the right side to sort out.
 ![Sprint 4](https://i.imgur.com/vDIDkrP.png)
 
 #### Sprint 5:
-At this stage of development, all of the CRUD feautures had now being developed, withn **delete** and **update** functions being tested. i would now focus on many of the CI/Jenkins requirements, as well as ironing out any bugs. It also became increasing unlikely at this stage the login feature would be completed, but i would try and get the category filters to work in time
+At this stage of development, all of the CRUD features had now being developed, with **delete** and **update** functions being tested. i would now focus on many of the CI/Jenkins requirements, as well as ironing out any bugs. It also became increasing unlikely at this stage the login feature would be completed, but i would try and get the category filters to work in time
 ![Sprint 5](https://i.imgur.com/l6GnjQg.png)
 
 #### Completition
 The Minimal required product was now achieved within a suitable time frame! Unfortunately the login and category filters where not completed in time and the remaining time was used to completed other tasks such as this readme.md file/
-![Completiton](https://i.imgur.com/gyEe47o.jpg)
+![Completition](https://i.imgur.com/gyEe47o.jpg)
 
 ## Architecture
 ### Entity Relationship Diagram
@@ -160,16 +160,17 @@ The styles and aesthetics of my application go very well with the themes of a wo
 #### Lack of action search functionality
 Whilst the category table was included in the final version, little was really done with the categories outside of back-end SQL testing. It would have been really good to include a feature that would have filtered out actions depending on their category, but mostly time constraints stopped this from being achieved.
 
-#### Absense of User login
-As explained during the design phase of the project, a log in feature would have been ideal as it would have allowed the system to only show the workouts made by that user. Unfortunately due to time constraints and overestimasting my ability, i opted to leave that function out of the end product. 
+#### Absence of User login
+As explained during the design phase of the project, a log in feature would have been ideal as it would have allowed the system to only show the workouts made by that user. Unfortunately due to time constraints and overestimating my ability, i opted to leave that function out of the end product. 
 
-Its absense had little affect on the project, as i carefully followed my MoSCoW methodology and build functions to be independant of logins. Also the login feature would have had little affect on my overall mark, so it was the obvious that it would be the first feature to leave out.
+Its absence had little effect on the project, as i carefully followed my MoSCoW methodology and build functions to be independent of logins. Also the login feature would have had little effect on my overall mark, so it was the obvious that it would be the first feature to leave out.
+
 ### Future Improvements
 #### Increased testing coverage
-As shown previous in the [Coverage Report](https://github.com/HavidDulsman/Workout#coverage-report) section of the readme file, there was little coverage of the application, even though alot of its core features where tested. This is definately an area i would like to improve in later projects
+As shown previous in the [Coverage Report](https://github.com/HavidDulsman/Workout#coverage-report) section of the readme file, there was little coverage of the application, even though alot of its core features where tested. This is definitely an area i would like to improve in later projects
 
 #### Dynamic templates
-Whilst something similar was implemented into the final product, i would have loved to incorporate dynamic pages and templates, especially on a routines individual page. This could have been achieved if i had used WhatTheForms during development, or used a different coding langauge.
+Whilst something similar was implemented into the final product, i would have loved to incorporate dynamic pages and templates, especially on a routines individual page. This could have been achieved if i had used WhatTheForms during development, or used a different coding language.
 
 #### Branch Management
 Various time during the development did i have issues regarding the branches of development and which ones i was pushing and pulling from. Although i eventually got the hang of it, i would have prevented alot of early problems. I expect the next project to be much more smoother as i start to master basic git commands.
