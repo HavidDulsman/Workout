@@ -54,18 +54,23 @@ Some of the users stories have been tagged **Orange** to identify that they are 
 ![Sprint 1](https://i.imgur.com/hmL0B6f.png)
 
 #### Sprint 2:
+The 2nd Sprint focuses heaviily on front end preparation as well as testing various parts of the backend, especially SQL and database related tasks. Moving forward, I opted to vigourly test an entire function during this stage, whilst also planning and developing another closelty associated with it.
 ![Sprint 2](https://i.imgur.com/3LyXYcU.png)
 
 #### Sprint 3:
+By the 3rd sprint, many of the front end features where either completed and tested, or nearing final stages of development. Some of the action features where also being started on, including the first **read** and **create** functions for CRUD.
 ![Sprint 3](https://i.imgur.com/EtvHDba.png)
 
 #### Sprint 4: 
+Sprint for took abit longer than previous stages, due to abit of confusion regarding routine functionality and styling. To counter this, the project was scaled back slightly to be more in line with my current ability set. Many of the action and routine functions are now being tested, with a couple bugs on the right side to sort out.
 ![Sprint 4](https://i.imgur.com/vDIDkrP.png)
 
 #### Sprint 5:
+At this stage of development, all of the CRUD feautures had now being developed, withn **delete** and **update** functions being tested. i would now focus on many of the CI/Jenkins requirements, as well as ironing out any bugs. It also became increasing unlikely at this stage the login feature would be completed, but i would try and get the category filters to work in time
 ![Sprint 5](https://i.imgur.com/l6GnjQg.png)
 
 #### Completition
+The Minimal required product was now achieved within a suitable time frame! Unfortunately the login and category filters where not completed in time and the remaining time was used to completed other tasks such as this readme.md file/
 ![Completiton](https://i.imgur.com/gyEe47o.jpg)
 
 ## Architecture
