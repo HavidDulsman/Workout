@@ -64,7 +64,7 @@ systemd-python==234
 Twisted==17.9.0
 ufw==0.36
 unattended-upgrades==0.1
-urllib3==1.22
+urllib3==1.26.5
 wcwidth==0.1.8
 Werkzeug==1.0.0
 zipp==3.0.0
